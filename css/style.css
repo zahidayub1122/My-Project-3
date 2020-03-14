@@ -1,0 +1,396 @@
+
+/* 1. Gloabal Section */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i,700,700i,900,900i');
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+/* 2. Header Section */
+header{
+  min-height: 570px;
+  background: #f4f4f4 url(../img/banner.png) no-repeat center 0/cover;
+  overflow: hidden;
+}
+/* 2.1 Navigation Section*/
+.navbar-nav li{
+	margin-left: 20px;
+}
+
+.nav-bg{
+	background-color: rgba(0,0,0,.3);
+}
+
+.navbar-dark .navbar-nav .active>
+.nav-link, .navbar-dark .navbar-nav
+.nav-link.active, .navbar-dark .navbar-nav
+.nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    padding: 8px 15px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:focus, 
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #ed145b;
+}
+
+/* 3. Banner Section*/
+.banner-text{
+	padding: 150px 0px;
+}
+.banner-text span{
+	font-weight: 900;
+}
+.banner-text h1{
+	padding-top: 50px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.banner-text p{
+	font-weight: 300;
+}
+.btn-banner{
+	margin: 30px 0px 40px 0px;
+	padding: 5px 30px;
+	font-size: 12px;
+	background-color: #ed145b;
+	color: #fff;
+	text-transform: uppercase;
+	border: 2px solid #ed145b;
+	border-radius: 25px;
+	-webkit-transition: ease 0.4s all;
+	-moz-transition: ease 0.4s all;
+	-o-transition: ease 0.4s all;
+	transition: ease 0.4s all;
+}
+.btn-banner:hover{
+	background-color: #fff;
+	color: #ed145b;
+}
+
+/* 4. About Section */
+#about{
+	background-color: #f4f4f4;
+	position: relative;
+	padding: 35px 0px;
+}
+
+.about-text{
+	overflow: hidden;
+	font-style: italic;
+	font-weight: 300;
+}	
+.about-image{
+	position: absolute;
+	top: 15px;
+	right: 0;
+}
+.btn-about{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ed145b;
+	background-color: transparent;
+	font-size: 12px;
+}
+.btn-about:hover{
+	background-color: #ed145b;
+	color: #fff;
+}
+
+.divider {
+  height: 2px;
+  background-color: #ed145b;
+  line-height: 2px;
+  max-width: 200px;
+  margin: 30px 0px; 
+}
+
+/* 5. Services Section */
+#services{
+	padding: 50px 0px 30px;
+}
+.services-text{
+	padding: 70px 0px;
+}
+.services-text h2{
+	font-style: italic;
+}
+.services-text p{
+	width: 65%;
+	margin: 0 auto;
+}
+.service-content{
+	width:100%;
+	padding: 30px 0px 25px 25px;
+}
+.service-info{
+	color: #ed145b;
+	font-weight: 500;
+	text-align: center;
+	padding: 30px 0px;
+}
+.service-img{
+	padding-left: 60px;
+}
+
+.service-img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+
+/* 6. Testimonial Section */
+.testimonial{
+	background: url(../img/banner-1.png) no-repeat;
+	background-size: cover;
+	min-height: 300px;
+	padding: 40px 0px;
+}
+.testimonial i{
+	color: #ed145b;
+}
+.testi-content p{
+	width: 70%;
+    margin: 0 auto;
+    padding: 70px;
+}
+
+/* 7. Price Section */
+#price{
+	padding: 30px 0px;
+	background-color: #f4f4f4;
+	font-style: italic;
+	font-weight: 300;
+}
+#price h2{
+	padding-top: 25px;
+}
+#price p{
+	width: 60%;
+	margin: 0 auto;
+}
+.price-card{
+	margin: 45px 0px;
+}
+.price-card:hover .card-head {
+    background-color: #ed145b;
+}
+.card-head {
+    background-color: #5a5a5a;
+    color: #fff;
+    padding: 20px;
+    height: 130px;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+    position: relative; 
+}
+.card-head p {
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    padding: 12px;
+}
+.card-head p span {
+    font-size: 300%; 
+}
+
+.btn-card{
+	text-transform: uppercase;
+	position: absolute;
+	top: 110px;
+	right: 70px;
+	padding: 8px 30px;
+	border-radius: 20px;
+	font-size: 12px;
+	background-color: #f4f4f4;
+}
+.btn-buy{
+	background-color: #ed145b;
+	padding: 8px 30px;
+	color: #fff;
+	border-radius: 20px;
+	font-size: 12px;
+	border: 2px solid #ed145b;
+	-webkit-transition: ease 0.4s all;
+	-moz-transition: ease 0.4s all;
+	-o-transition: ease 0.4s all;
+	transition: ease 0.4s all;
+}
+.btn-buy:hover{
+	background-color: #fff;
+	color: #ed145b;
+}
+
+.price-list{
+	text-align: center;
+	list-style: none;
+}
+
+/* 8. Info Section */
+#info{
+	padding: 50px 0px;
+}
+.info-content{
+	padding: 20px 40px;
+}
+.info-content h3{
+	color: #ed145b;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.info-content p{
+	width: 110%;
+}
+
+/* 9. Subscribe Section */
+#subscribe{
+	background-color: #ed145b;
+	padding: 50px 0px;
+}
+.subscribe-text{
+	width: 100%;
+	font-weight: 300;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+.subscribe-text span{
+	font-weight: 900;
+}
+
+.btn-subscribe{
+	background-color: #fff;
+	padding: 8px 40px;
+	color: #ed145b;
+	border-radius: 20px;
+	font-weight: 700;
+	border: 2px solid #fff;
+	-webkit-transition: ease 0.4s all;
+	-moz-transition: ease 0.4s all;
+	-o-transition: ease 0.4s all;
+	transition: ease 0.4s all;
+}
+.btn-subscribe:hover{
+	background-color: #ed145b;
+	color: #fff;
+}
+/* 10. Portfolio Section */
+#portfolio{
+	padding: 30px 0px;
+}
+.portfolio-text p{
+	width: 65%;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 35px;
+}
+.portfolio-img{
+	padding: 25px 0px;
+}
+.img-wrapper {
+    position: relative;
+    overflow: hidden; 
+}
+.img-wrapper:hover .cover {
+      top: -5%; 
+}
+.cover {
+    position: absolute;
+    top: 98%;
+    left: -5%;
+    width: 110%;
+    height: 110%;
+    background-color: #ed145b;
+    opacity: 0.9;
+    -webkit-transition: top 0.3s;
+    transition: top 0.3s;
+    -webkit-transform: rotate(2deg);
+    transform: rotate(2deg); 
+}
+.cover i {
+      font-size: 30px;
+      color: #fff;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%) rotate(-2deg);
+      transform: translate(-50%, -50%) rotate(-2deg);
+      cursor: pointer; 
+}
+.desc{
+	background-color: #f4f4f4;
+	padding: 20px;
+}
+.desc h4{
+	font-size: 14px;
+	font-weight: 700;
+}
+
+/* 11.Banner 2 Section */
+.banner2{
+	background: url(../img/banner-1.png) no-repeat;
+	background-size: cover;
+}
+.banner2-text{
+	padding: 100px 0px;
+}
+/* 12. Safari Section */
+#safari{
+	padding: 50px 0px;
+}
+
+/* Footer Section */
+footer{
+	min-height: 140px;
+}
+.footer-content{
+	padding: 40px 0px;
+}
+footer .copyright{
+	padding: 50px 0px;
+	float: left;
+}
+footer .design{
+	padding: 50px 0px;
+	float:right;
+}
+
+/* Media Query */
+/* Media query for Mobile */
+@media only screen and (max-width: 500px){
+	#about{
+		min-height: 800px;
+	}
+	.about-image{
+		top: 550px;
+		right: 0;
+	}
+	
+}
+
+@media only screen and (max-width: 768px){
+	#about{
+		min-height: 750px;
+	}
+	.about-image{
+		top: 550px;
+		right: 0;
+	}
+	.img-wrapper img{
+		width: 100%
+	}
+}
+
+@media only screen and (max-width: 992px){
+
+	.img-wrapper img{
+		width:100%;
+	}
+	.about-image{
+		display:none;
+	}
+}
